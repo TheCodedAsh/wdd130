@@ -24,6 +24,7 @@ footer {
 
 h1 {
     color: darkblue;
+    border-bottom: 1px solid #777;
 }
 
 .grid {
