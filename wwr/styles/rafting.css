@@ -115,30 +115,30 @@ section {
     width: 100%;
 }
 
-.adventures h2 {
-    text-align: center;
-}
-
-.adventure-gallery {
+.adventures {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
-.adventure-gallery figure {
-    width: 150px;
-    margin: 0;
+.adventures h2 {
+    width: 100%;
     text-align: center;
 }
 
-.adventure-gallery img {
+.adventures figure {
+    width: 150px;
+    text-align: center;
+}
+
+.adventures img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-.adventure-gallery figcaption {
+.adventures figcaption {
     margin-top: 8px;
     font-size: 0.9rem;
 }
