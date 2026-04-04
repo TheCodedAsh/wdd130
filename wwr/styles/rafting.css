@@ -43,6 +43,7 @@ header {
     grid-template-columns: 150px 1fr;
     align-items: center;
     background-color: var(--secondary-color);
+    color: var(--accent2-color);
 }
 
 header img {
