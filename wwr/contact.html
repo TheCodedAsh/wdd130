@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-      content="Contact White Water Rafting Adventures for inquiries about our rafting trips and outdoor adventures.">
+      content="Contact White Water Rafting Adventures for reservations, questions, and company information.">
     <meta name="author" content="Ashley Ballew">
     <title>Contact Us | White Water Rafting Adventures</title>
     <link rel="stylesheet" href="styles/rafting.css">
@@ -25,92 +25,78 @@
     </header>
 
     <main>
-        <h1>Contact Us</h1>
+        <h1>White Water Rafting Adventures</h1>
 
             <section class="contact-info">
-                <h2> Company Information </h2>
-                <p><strong>Address:</strong> 123 River Rapids Road, Adventure City, USA</p>
-                <p><strong>Phone:</strong> (800) 123-RAFT</p>
-                <p><strong>Email:</strong> info@whitewaterrafting.com</p>
+                <p><strong>123 River Rapids Road</strong></p>
+                <p><strong>Adventure City, USA</strong></p>
+                <p><strong>+ 1 800 123 RAFT</strong></p>
+                <p><strong>info@whitewaterrafting.com</strong></p>
             </section>
 
-        <section class="map">
-            <h2>Find Us</h2>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086123456789!2d-122.41941548468123!3d37.77492977975956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c12345678%3A0xabcdef1234567890!2s123%20River%20Rapids%20Road%2C%20Adventure%20City%2C%20USA!5e0!3m2!1sen!2s!4v1610000000000" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                width= "600" 
-                height="450" 
-                style="border:0;" 
-                allowfullscreen="" 
+            <div class="contact-layout">
+                <section class="map">
+                    <h2 class="visually-hidden">Our Location</h2>
+                    <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019308687238!2d-122.41941548468139!3d37.77492977975978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064d7f3a4b1%3A0x1234567890abcdef!2sAdventure%20City!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus"
                 loading="lazy">
-            </iframe>
-        </section>
+                allowfullscreen>
+                    </iframe>
+                </section>
 
-        <section class="employees">
-            <h2>Meet Our Team</h2>
+                <section class="contact-form">
+                    <form action="#" method="post">
+            <div class="form-item">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Placeholder" required>
+                </div>
 
-            <figure>
-                <img src="images/employee1.jpg" alt="Sarah Johnson - General Manager">
-                <figcaption>Sarah Johnson - General Manager</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee2.jpg" alt="Mike Carter - Lead Guide">
-                <figcaption>Mike Carter - Lead Guide</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee3.jpg" alt="Emily Davis - Reservations Specialist">
-                <figcaption>Emily Davis - Reservations Specialist</figcaption>
-            </figure>
-        </section>
+                <div class="form-item">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Placeholder" required>
+                </div>
 
-        <section class="contact-form">
-            <h2>Send Us a Message</h2>
-            <form action="#" method="post">
-                <fieldset>
-                    <legend>Contact Details</legend>
-            
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <div class="form-item form-purpose">
+                    <label>Message Purpose</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                        <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+                    </div>
+                </div>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </fieldset>
+                <div class="form-item message-purpose">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Type here" required></textarea>
+                </div>
 
-            <fieldset>
-                <legend>Purpose of Message</legend>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter</label>
+                </div>
 
-                <label>
-                    <input type="radio" name="purpose" value="general" required> 
-                    General Inquiry
-                </label>
-
-                <label>
-                    <input type="radio" name="purpose" value="reservation" required> 
-                    Reservation Question
-                </label>
-
-                <label>
-                    <input type="radio" name="purpose" value="website" required> 
-                    Feedback
-                </label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Message</legend>
-
-                <label for="message">Your Message</label>
-                <textarea id="message" name="message" rosws="6" required></textarea>
-
-                <label></label>
-                    <input type="checkbox" name="newsletter"> 
-                    Please sign me up for the newsletter
-                </label>
-            </fieldset>
-
-                <button type="submit">Send Message</button>
+                <button type="submit">Get in Touch!</button>
             </form>
         </section>
-    </main>
+    </div>
+
+    <section class="employees">
+        <h2>We Are Here to Serve You</h2>
+        <div class="employee-profiles">
+            <figure>
+                <img src="images/employee1.jpg" alt="General Manager">
+                <figcaption>General Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="Lead Guide">
+                <figcaption>Lead Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpg" alt="Reservations Specialist">
+                <figcaption>Reservations Specialist</figcaption>
+            </figure>
+        </div>
+    </section>
+</main>
 
     <footer>
         <p>&copy; 2026 White Water Rafting Adventures | Ashley Ballew</p>
