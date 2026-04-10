@@ -177,3 +177,116 @@ footer {
     width: 32px;
     margin-left: 10px;
 }
+
+.contact-info,
+.map,
+.employees,
+.contact-form {
+    background-color: #f4f4f4;
+    margin: 16px;
+    padding: 16px;
+}
+
+main h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact-info h2,
+.map h2,
+.employees h2,
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.employees h2 {
+    width: 100%;
+}
+
+.employees figure {
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+.employees img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border: 2px solid var(--primary-color);
+}
+
+.employees figcaption {
+    margin-top: 8px;
+    font-size: 0.95rem;
+}
+
+form {
+    display: grid;
+    gap: 16px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 16px;
+    background-color: white;
+}
+
+legend {
+    font-weight: bold;
+    color: var(--primary-color);
+    padding: 0 8px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"], 
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+}
