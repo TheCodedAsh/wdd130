@@ -345,18 +345,18 @@ main {
     font-weight: 700;
 }
 
-.hero {
+.home-hero {
     position: relative;
     margin-bottom: 2rem;
 }
 
-.hero img {
+.home-hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.hero h1 {
+.home-hero h1 {
     position: absolute;
     top: 15%;
     left: 50%;
@@ -521,11 +521,6 @@ th {
     display: flex;
     gap: 1rem;
     justify-content: center;
-}
-
-.socialmedia img {
-    width: 32px;
-    height: 32px;
 }
 
 @media (max-width: 900px) {
