@@ -384,16 +384,16 @@ main {
     gap: 1rem;
 }
 
-.form-item {
+.newsletter-item {
     display: grid;
 }
 
-.form-item label {
+.newsletter-item label {
     margin-bottom: 0.4rem;
     font-weight: 700;
 }
 
-.form-item input {
+.newsletter-item input {
     padding: 0.75rem;
     border: 1px solid #999;
     border-radius: 6px;
